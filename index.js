@@ -21,3 +21,16 @@ for(let i = 0; i <= 10; i++){
   console.log(`${numberFive} X ${i} = ${numberFive*i}`);
 }*/
 
+/*const number = document.querySelector('[data-number]');
+const button = document.querySelector('[data-button]');
+
+const send = () => {
+  for(let i = 1; i <= 10; i++){
+    if(parseInt(number.value) != -1){
+      console.log(`${parseInt(number.value)} X  ${i} = ${parseInt(number.value) * i}`);
+    }
+  }
+  number.value = '';
+}
+
+button.addEventListener('click', send);*/
